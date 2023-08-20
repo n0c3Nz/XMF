@@ -1,10 +1,10 @@
-# 📄 XML Attribute Extractor 📄
+# 📄 XML Attribute Extractor
 Un sencillo script en Python para extraer atributos específicos de un archivo XML.
 
 ## Table of Contents
 1. [📝 Descripción](#Descripción)
 2. [🚀 Características](#Características)
-3. [ℹ️ Instrucciones de Uso](#ⓘ--instrucciones-de-Uso)
+3. [ℹ️ Instrucciones de Uso](#ⓘ-instrucciones-de-Uso)
 4. [🎨 Ejemplo](#Ejemplo)
 5. [📝 Nota](#Nota)
 
@@ -17,7 +17,7 @@ Este script te permite extraer los valores de uno o varios atributos de un archi
 - Interfaz de línea de comandos fácil de usar.
 - Muestra los valores de los atributos en un formato legible.
 
-## ⓘ  Instrucciones de Uso
+## ⓘ Instrucciones de Uso
 1. Asegúrate de tener Python instalado en tu sistema.
 2. Ejecuta el script desde la línea de comandos con el siguiente formato:
 
