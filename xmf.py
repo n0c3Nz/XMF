@@ -3,7 +3,6 @@ import xml.etree.ElementTree as ET
                               
 def main():
 	if len(sys.argv) < 3:
-		filename = sys.argv[1]
 		print("""
 ██╗  ██╗███╗   ███╗███████╗
 ╚██╗██╔╝████╗ ████║██╔════╝
@@ -12,8 +11,9 @@ def main():
 ██╔╝ ██╗██║ ╚═╝ ██║██║     Version 1.0 - Don't mess with c3Nz!
 ╚═╝  ╚═╝╚═╝     ╚═╝╚═╝     Made by c3Nz (@n0c3Nz)
                            """)
-		print(f"Uso: python {filename} archivo.xml nombre_atributo1 nombre_atributo2 ...")
+		print(f"Uso: python xmf.py archivo.xml nombre_atributo1 nombre_atributo2 ...")
 		return
+	filename = sys.argv[1]
 	attribute_names = sys.argv[2:]
 
 	tree = ET.parse(filename)
