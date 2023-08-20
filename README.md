@@ -38,7 +38,7 @@ Supongamos que tienes un archivo XML llamado `datos.xml` con los siguientes cont
 ```
 Ejecutar el script de la siguiente manera:
 ```bash
-python3 script.py datos.xml id nombre
+python3 xmf.py datos.xml id nombre
 ```
 Producirá la siguiente salida:
 ```
