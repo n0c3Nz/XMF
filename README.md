@@ -3,7 +3,7 @@ Un sencillo script en Python para extraer atributos específicos de un archivo X
 
 ## Table of Contents
 1. [📝 Descripción](#Descripción)
-2. [🚀 Características](#Características)
+2. [Características](#Características)
 3. [ℹ️ Instrucciones de Uso](#ⓘ-instrucciones-de-Uso)
 4. [🎨 Ejemplo](#Ejemplo)
 5. [📝 Nota](#Nota)
