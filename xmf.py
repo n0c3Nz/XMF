@@ -1,6 +1,5 @@
 import sys
 import xml.etree.ElementTree as ET      
-                              
 def main():
 	if len(sys.argv) < 3:
 		print("""
@@ -15,12 +14,9 @@ def main():
 		return
 	filename = sys.argv[1]
 	attribute_names = sys.argv[2:]
-
 	tree = ET.parse(filename)
 	root = tree.getroot()
-
 	elements_lists = [root.findall('.//*[@{}]'.format(attr_name)) for attr_name in attribute_names]
-	
 	if all(elements for elements in elements_lists):
 		num_elements = len(elements_lists[0])
 		for i in range(num_elements):
@@ -28,6 +24,5 @@ def main():
 			print(" ".join(values))
 	else:
 		print("No se encontraron elementos para todos los atributos proporcionados.")
-
 if __name__ == "__main__":
 	main()
